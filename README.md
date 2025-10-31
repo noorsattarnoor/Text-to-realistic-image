@@ -12,4 +12,4 @@ Quick start: open `Encryption and decryption code.ipynb`, run cells in order. Th
 
 Notes: 
 1. Use lossless outputs; avoid re-encoding; do not publish real encryption_manifest.json (it contains the key in hex).
-2. Use google colab (https://colab.research.google.com/) to run the codes.
+2. Use google colab ([https://colab.research.google.com/](https://colab.research.google.com/github/noorsattarnoor/Text-to-realistic-image/blob/main/Encryption%20and%20decryption%20code.ipynb)) to run the codes.
