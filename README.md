@@ -10,4 +10,6 @@ Images to test/ — cover images (PNG/JPG)
 
 Quick start: open `Encryption and decryption code.ipynb`, run cells in order. The notebook auto-discovers files from the two folders (alphabetical pairing), generates the fake images, and writes `encryption_manifest.json`. Then run the decryption cells to restore the cipher and the plaintext (hash MATCH expected).
 
-Notes: use lossless outputs; avoid re-encoding; do not publish real encryption_manifest.json (it contains the key in hex).
+Notes: 
+1. use lossless outputs; avoid re-encoding; do not publish real encryption_manifest.json (it contains the key in hex).
+2. Use google colab (https://colab.research.google.com/) to run the codes.
