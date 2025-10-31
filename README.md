@@ -5,8 +5,8 @@ This project converts plaintext (TXT/DOCX) into a grayscale cipher image and the
 Key steps: key-dropped 16×16 ASCII substitution → V-stream nibble shifts → dynamic checksum → (optional) Arnold Cat Map → XOR diffusion → Lorenz-based index permutation → α-blend with cover.
 
 Data folders:
-text to test/ — input texts (TXT/DOCX)
-Images to test/ — cover images (PNG/JPG)
+Text to be tested/ — input texts (TXT/DOCX)
+Images to be tested/ — cover images (PNG/JPG)
 
 Quick start: open `Encryption and decryption code.ipynb`, run cells in order. The notebook auto-discovers files from the two folders (alphabetical pairing), generates the fake images, and writes `encryption_manifest.json`. Then run the decryption cells to restore the cipher and the plaintext (hash MATCH expected).
 
